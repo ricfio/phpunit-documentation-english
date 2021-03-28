@@ -266,9 +266,10 @@ the following code:
             :name: textui.examples.TestCaseClass.php
 
             <?php
-            use PHPUnit\Framework\TestCase;
 
             namespace TestNamespace;
+
+            use PHPUnit\Framework\TestCase;
 
             class TestCaseClass extends TestCase
             {
